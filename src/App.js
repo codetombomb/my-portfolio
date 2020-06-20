@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Home from './Components/Home'
+import About from './Components/About'
+import Contact from './Components/Contact'
 
 class App extends Component {
   constructor() {
@@ -14,7 +16,7 @@ class App extends Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "Persistent",
+        title: "Persist 💪",
         subtitle: "My Projects",
         text: "Checkout my projects!"
 
@@ -42,6 +44,28 @@ class App extends Component {
                   {...props}
                   title={this.state.title}
                   homeInfo={this.state.home}
+                />
+              )}
+            />
+            <Route
+              exact
+              path={"/about"}
+              render={props => (
+                <About
+                  {...props}
+                  title={this.state.about.title}
+                  
+                />
+              )}
+            />
+            <Route
+              exact
+              path={"/contact"}
+              render={props => (
+                <Contact
+                  {...props}
+                  title={this.state.contact.title}
+                  
                 />
               )}
             />
