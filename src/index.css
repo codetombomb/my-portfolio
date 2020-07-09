@@ -1,13 +1,44 @@
 body {
+  background-color: rgb(138, 139, 137); 
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.my-name {
+  font-size: 80px;
+  position: relative;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  list-style: none;
+
+  /* the first value in margin is for top and bottom; the second value is for the right and left */
+  margin: 0 2vw;        /* vw is the viewport window */
+  font-size: 2.5vh;    /* The font size is 3% of the viewport window sizef */
+}
+
+a {
+  text-decoration: none;
+  color: cornsilk;
+  padding: 2vw;
+}
+
+a:hover {
+  background-color: rgb(103, 235, 125);
+}
+
+nav {
+  width: 100vw;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
