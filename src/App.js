@@ -17,13 +17,13 @@ class App extends Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "Persist 💪",
+        title: "JUNIOR FULL STACK WEB DEVELOPER",
         subtitle: "My Projects",
         text: "Checkout my projects!"
-
       },
       about: {
         title: 'About Me',
+
       },
       contact: {
         title: "Let's Chat"
@@ -49,7 +49,7 @@ class App extends Component {
                   {...props}
                   title={this.state.title}
                   homeInfo={this.state.home}
-
+                  
                 />
               )}
             />
