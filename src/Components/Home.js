@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import MyImage from '../images/IMG_1196.jpeg'
+import Projects from './Projects';
+
+
 
 class Home extends Component {
     render(){
@@ -9,9 +12,12 @@ class Home extends Component {
                 <hr/>
                 <img id="headshot-photo" alt="Tom Tobar" src={MyImage}/>
                 <h2>{this.props.homeInfo.title}</h2>
-                {/* <h2>{this.props.homeInfo.subtitle}</h2>
-                <h2>{this.props.homeInfo.text}</h2>
-                <h2>{this.props.homeInfo.title}</h2> */}
+                <hr/>
+                <h2 id="about-me" style={{position: "relative", left: "160px"}}>ABOUT ME</h2>
+                <p>{this.props.homeInfo.text}</p>
+                <hr/>
+                <h2 id="my-projects" style={{position: "relative", left: "145px"}}>MY PROJECTS</h2>
+                <Projects/>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar'
+import Projects from './Components/Projects';
 
 class App extends Component {
   constructor() {
@@ -17,9 +18,9 @@ class App extends Component {
         { title: "Contact", path: "/contact" }
       ],
       home: {
-        title: "JUNIOR FULL STACK WEB DEVELOPER",
+        title: "FULL STACK WEB DEVELOPER",
         subtitle: "My Projects",
-        text: "Checkout my projects!"
+        text: "I worked in the Motorcycle Industry as a mechanic, doing repairs and service, and a service adviser for almost 10 years. I transitioned into web development after helping my father in law with social media marketing project and found that I liked HTML and CSS. I attended Flatiron School and made my first computer game and fell in love. Because of my background as a mechanic, I tend to pay attention to details and think outside of the box creatively. I am actively seeking employment as a web developer and expanding my knowledge in Computer Science."
       },
       about: {
         title: 'About Me',
@@ -58,9 +59,9 @@ class App extends Component {
            */}
             <Route
               exact
-              path={"/about"}
+              path={"/projects"}
               render={props => (
-                <About
+                <Projects
                   {...props}
                 />
               )}
