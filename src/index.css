@@ -13,7 +13,7 @@ p {
   margin-left: 26vw;
   text-align: center;
   font-size: 23px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .my-name {
@@ -77,5 +77,29 @@ code {
 
 h2 {
   margin-left: 36vw;
+}
+h3 {
+  font-size: x-large;
+  text-decoration: underline;
+  /* padding: 20px;
+  font-weight: 300; */
+}
+
+#social-icons {
+  padding: 15px;
+  margin-left: 33vmax;
+
+}
+
+#project-div {
+position: relative;
+left: 130px;
+
+}
+
+.demo-vid {
+  padding: 10px;
+  float:left;
+  margin-right:14px;
 }
 

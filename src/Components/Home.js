@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MyImage from '../images/IMG_1196.jpeg'
 import Projects from './Projects';
+import SocialMedia from './SocialMedia'
 
 
 
@@ -12,6 +13,7 @@ class Home extends Component {
                 <hr/>
                 <img id="headshot-photo" alt="Tom Tobar" src={MyImage}/>
                 <h2>{this.props.homeInfo.title}</h2>
+                <SocialMedia/>
                 <hr/>
                 <h2 id="about-me" style={{position: "relative", left: "160px"}}>ABOUT ME</h2>
                 <p>{this.props.homeInfo.text}</p>

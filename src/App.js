@@ -5,6 +5,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects';
+import Resume from './Components/Resume'
 
 class App extends Component {
   constructor() {
@@ -20,7 +21,7 @@ class App extends Component {
       home: {
         title: "FULL STACK WEB DEVELOPER",
         subtitle: "My Projects",
-        text: "I worked in the Motorcycle Industry as a mechanic, doing repairs and service, and a service adviser for almost 10 years. I transitioned into web development after helping my father in law with social media marketing project and found that I liked HTML and CSS. I attended Flatiron School and made my first computer game and fell in love. Because of my background as a mechanic, I tend to pay attention to details and think outside of the box creatively. I am actively seeking employment as a web developer and expanding my knowledge in Computer Science."
+        text: "I worked in the Motorcycle Industry as a mechanic, doing repairs and service, and a service adviser for almost 10 years. I transitioned into web development after helping my father in law with social media marketing project and found that I liked HTML and CSS. I attended Flatiron School and made my first computer game and fell in love. Because of my background as a mechanic, I tend to pay attention to details and think outside of the box creatively. I am actively seeking employment as a web developer and expanding my knowledge in web developement."
       },
       about: {
         title: 'About Me',
@@ -89,6 +90,19 @@ class App extends Component {
                   title={this.state.contact.title}
                   
                 />
+
+              )}
+            />
+            <Route
+              exact
+              path={"/resume"}
+              render={props => (
+                <Resume
+                  {...props}
+                  title={this.state.contact.title}
+                  
+                />
+
               )}
             />
           </Switch>
