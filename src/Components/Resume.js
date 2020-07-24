@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-// import ReactGoogleDocsViewer from "react-google-docs-viewer";
+
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        {/* <ReactGoogleDocsViewer
-                    width="600px"
-                    height="780px"
-                    fileUrl=""
-                /> */}
+        <h2>Hello from Resume</h2>
       </div>
     );
   }

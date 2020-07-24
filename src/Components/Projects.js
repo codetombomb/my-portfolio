@@ -37,7 +37,7 @@ class Projects extends Component {
             id="icebreaker"
             videoId={"H8kO7bLe3Cc"}
             opts={opts}
-            // onReady={this._onReady}
+          // onReady={this._onReady}
           />
         </div>
       </div>
