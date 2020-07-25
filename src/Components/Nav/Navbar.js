@@ -14,8 +14,8 @@ const Navbar = props => (
         <ul>
           <li><a href="/projects">projects</a></li>
           <li><a href="/">about</a></li>
-          <li><a href="/">contact</a></li>
-          <li><a href="/">resume</a></li>
+          <li><a href="/contact">contact</a></li>
+          <li><a href="/resume">resume</a></li>
         </ul>
       </div>
     </nav>
