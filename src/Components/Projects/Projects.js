@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import YouTube from "react-youtube";
+import './Project.css'
 
 class Projects extends Component {
   _onReady(e) {
@@ -8,14 +9,13 @@ class Projects extends Component {
   render() {
     const opts = {
       height: "300",
-      width: "434",
+      width: "500",
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
         autoplay: 0,
       },
     };
     return (
-      <div id="project-div">
+      <div className="project-div">
         <div className="demo-vid">
           {/* Covid Chaos */}
           <h3>Covid Chaos</h3>
@@ -37,7 +37,6 @@ class Projects extends Component {
             id="icebreaker"
             videoId={"H8kO7bLe3Cc"}
             opts={opts}
-          // onReady={this._onReady}
           />
         </div>
       </div>

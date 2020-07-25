@@ -1,0 +1,13 @@
+.project-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: 20% 20%; */
+}
+
+.demo-vid {
+    padding: 5px;
+    grid-column: 1 / span 4;
+    max-width: 100%;
+    height: auto;
+}
+
