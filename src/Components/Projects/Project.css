@@ -1,13 +1,24 @@
 .project-div {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
     /* grid-template-columns: 20% 20%; */
 }
 
 .demo-vid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 5px;
     grid-column: 1 / span 4;
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 669px:){
+    .demo-vid{
+        width: 800px;
+    }
 }
 
