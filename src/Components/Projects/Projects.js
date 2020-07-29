@@ -18,7 +18,8 @@ const Projects = props => {
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.covidChaos.url}
-
+          width="100%"
+          height="100%"
 
 
         />
@@ -41,6 +42,8 @@ const Projects = props => {
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.motoGo.url}
+          width="100%"
+          height="100%"
         />
         <div className="video-description">
           <p>
@@ -67,6 +70,8 @@ const Projects = props => {
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.jeopardy.url}
+          width="100%"
+          height="100%"
 
         />
         <div className="video-description">
@@ -88,6 +93,8 @@ const Projects = props => {
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.iceBreaker.url}
+          width="100%"
+          height="100%"
 
         />
         <div className="video-description">
