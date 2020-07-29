@@ -1,6 +1,7 @@
 import React from "react";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
 import './Navbar.css';
+import SocialMedia from "../Social/SocialMedia";
 
 const Navbar = props => (
   <header className="navbar">
@@ -9,6 +10,8 @@ const Navbar = props => (
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className="navbar_logo"><a href="/">tom tobar</a></div>
+      <div className="spacer" />
+      <SocialMedia />
       <div className="spacer" />
       <div className="navbar_navigation-items">
         <ul>

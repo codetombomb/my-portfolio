@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import MyImage from "../../images/IMG_1196.jpeg";
-import SocialMedia from "../Social/SocialMedia";
+// import SocialMedia from "../Social/SocialMedia";
 import './Home.css'
 
 class Home extends Component {
@@ -10,9 +10,9 @@ class Home extends Component {
         <hr />
         <img className="headshot-photo" alt="Tom Tobar" src={MyImage} />
         <h2 className="dev-title">{this.props.homeInfo.title}</h2>
-        <SocialMedia />
-        <hr />
-        <h2 id="about-me">ABOUT ME</h2>
+        {/* <SocialMedia /> */}
+        {/* <hr /> */}
+        {/* <h3 id="about-me">About me</h3> */}
         <p>{this.props.homeInfo.text}</p>
       </div>
     );

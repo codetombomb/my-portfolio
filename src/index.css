@@ -1,8 +1,9 @@
 body {
   height: 100%;
-  background-color: rgb(138, 139, 137);
+  background-color: rgb(143, 143, 143);
   /* margin: 0; */
   font-family: "Montserrat", sans-serif;
+  /* background-image: url('./images/carbon.jpg'); */
   /* max-width: 90vw; */
 }
 
@@ -184,16 +185,4 @@ h3 {
 #social-icons {
   /* padding: 15px;
   margin-left: 33vmax; */
-}
-
-#project-div {
-  /* position: relative;
-  left: 130px;
-  z-index: -1; */
-}
-
-.demo-vid {
-  /* padding: 10px;
-  float: left;
-  margin-right: 14px; */
 }

@@ -24,16 +24,18 @@ hr {
 }
 
 p {
-   
     max-width: 70vw;
-    text-align: center;
 }
 
 @media (max-width: 650px){
     h2{
-        font-size: 120%;
+        font-size: 100%;
         font-weight: bold;
     }
+    p {
+        font-size: .9rem;
+    }
+
 }
 
 

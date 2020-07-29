@@ -1,0 +1,8 @@
+.icon:hover
+.icon:active {
+    background-color: rgb(182, 243, 61);
+}
+
+.icon {
+    padding: 5px;
+}

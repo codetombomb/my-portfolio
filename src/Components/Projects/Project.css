@@ -1,24 +1,41 @@
 .project-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    /* grid-template-columns: 20% 20%; */
+     display: flex;
+     flex-direction: column;
+     
+     align-items: center;
+     padding: 15px;
+     /* grid-template-columns: 20% 20%;  */
+    }
+    
+.demo-wrapper {
+  /* position: relative;
+  padding-top: 56.25%  */
+  /* Player ratio: 100 / (1280 / 720) */
+}
+
+.video-description {
+    width: 35vw;
+
 }
 
 .demo-vid {
-    display: flex;
+/*     
+  position: absolute;
+  top: 0;
+  left: 0; */
+   
+    /* height: 100%; */
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 20px;
     grid-column: 1 / span 4;
     max-width: 100%;
-    height: auto;
+    height: auto; */
 }
 
-@media (max-width: 669px:){
-    .demo-vid{
-        width: 800px;
-    }
+.demo-wrapper h3 {
+    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
