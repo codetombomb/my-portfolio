@@ -3,25 +3,21 @@ import ReactPlayer from 'react-player'
 import './Project.css'
 
 const Projects = props => {
-
-
-
   return (
     <div className="project-div">
-
-
-
-
       <div className="demo-wrapper">
         {/* Covid Chaos */}
-        <h3>{props.videoInfo.covidChaos.title}</h3>
+        <h2 style={{
+          textDecoration: "underline"
+        }}
+        >
+          {props.videoInfo.covidChaos.title}
+        </h2>
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.covidChaos.url}
-          width="100%"
-          height="100%"
-
-
+        // width="100%"
+        // height="100%"
         />
         <div className="video-description">
           <p>
@@ -37,13 +33,13 @@ const Projects = props => {
 
 
       <div className="demo-wrapper">
-        {/* Covid Chaos */}
-        <h3>{props.videoInfo.motoGo.title}</h3>
+        {/* MotoGo */}
+        <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.motoGo.title}</h2>
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.motoGo.url}
-          width="100%"
-          height="100%"
+        // width="100%"
+        // height="100%"
         />
         <div className="video-description">
           <p>
@@ -65,13 +61,13 @@ const Projects = props => {
 
 
       <div className="demo-wrapper">
-        {/* Covid Chaos */}
-        <h3>{props.videoInfo.jeopardy.title}</h3>
+        {/* Jeopardy*/}
+        <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.jeopardy.title}</h2>
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.jeopardy.url}
-          width="100%"
-          height="100%"
+        // width="100%"
+        // height="100%"
 
         />
         <div className="video-description">
@@ -88,14 +84,13 @@ const Projects = props => {
 
 
       <div className="demo-wrapper">
-        {/* Covid Chaos */}
-        <h3>{props.videoInfo.iceBreaker.title}</h3>
+        {/* IceBreaker */}
+        <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.iceBreaker.title}</h2>
         <ReactPlayer
           className="demo-vid"
           url={props.videoInfo.iceBreaker.url}
-          width="100%"
-          height="100%"
-
+        // width="100%"
+        // height="100%"
         />
         <div className="video-description">
           <p>
