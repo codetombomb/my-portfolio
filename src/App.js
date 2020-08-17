@@ -26,7 +26,7 @@ class App extends Component {
         title: "Full Stack Web Developer",
         subtitle: "My Projects",
         text:
-          "I worked in the Motorcycle Industry as a mechanic and a service adviser for almost 10 years before I decided to transition into web development. I attended Flatiron School December 2019, made my first computer game and fell in love. When I'm not coding, I spend time with my family and play video games. Because of my background, I tend to pay attention to details and think outside of the box creatively. I am actively seeking knowledge to expand my designing horizons.",
+          "I worked in the Motorcycle Industry as a mechanic and a service advisor for almost 10 years before I decided to transition into web development. I attended Flatiron School December 2019, made my first computer game and fell in love. When I'm not coding, I spend time with my family and play video games. Because of my background, I tend to pay attention to details and think outside of the box creatively. I am actively seeking knowledge to expand my designing horizons.",
       },
       contact: {
         title: "Let's Chat",
