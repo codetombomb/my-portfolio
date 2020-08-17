@@ -7,7 +7,7 @@ import Navbar from './Components/Nav/Navbar'
 import SideDrawer from './Components/SideDrawer/SideDrawer'
 import Backdrop from './Components/Backdrop/Backdrop'
 import Projects from "./Components/Projects/Projects";
-import Resume from "./Components/Resume";
+import Resume from "./Components/Resume/Resume";
 
 
 class App extends Component {
@@ -29,7 +29,7 @@ class App extends Component {
           "I worked in the Motorcycle Industry as a mechanic and a service advisor for almost 10 years before I decided to transition into web development. I attended Flatiron School December 2019, made my first computer game and fell in love. When I'm not coding, I spend time with my family and play video games. Because of my background, I tend to pay attention to details and think outside of the box creatively. I am actively seeking knowledge to expand my designing horizons.",
       },
       contact: {
-        title: "Let's Chat",
+        title: "Tom Tobar",
       },
       projectDemoVideos: {
         covidChaos: {
