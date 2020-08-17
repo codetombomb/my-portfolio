@@ -18,23 +18,19 @@
 }
 
 .video-description {
-    max-width: 50vw;
-    max-height: 100%;
+    /* max-width: 50vw;
+    max-height: 100%; */
 }
 
 .demo-vid {
-/*     
-  position: absolute;
-  top: 0;
-  left: 0; */
-   
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    grid-column: 1 / span 4;
-    max-width: 100%;
-    height: auto; */
+    position: relative;
+    padding-top: 56.25%
+}
+
+.player {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* .demo-wrapper h3 {
@@ -47,5 +43,4 @@
     .video-description {
         max-width: 100vw;
     }
-}
-*/
+} */

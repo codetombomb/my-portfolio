@@ -13,12 +13,14 @@ const Projects = props => {
         >
           {props.videoInfo.covidChaos.title}
         </h2>
-        <ReactPlayer
-          className="demo-vid"
-          url={props.videoInfo.covidChaos.url}
-        // width="100%"
-        // height="100%"
-        />
+        <div className="demo-vid">
+          <ReactPlayer
+            className="player"
+            url={props.videoInfo.covidChaos.url}
+            width="100%"
+            height="100%"
+          />
+        </div>
         <div className="video-description">
           <p>
             {props.videoInfo.covidChaos.description}
@@ -35,12 +37,14 @@ const Projects = props => {
       <div className="demo-wrapper">
         {/* MotoGo */}
         <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.motoGo.title}</h2>
-        <ReactPlayer
-          className="demo-vid"
-          url={props.videoInfo.motoGo.url}
-        // width="100%"
-        // height="100%"
-        />
+        <div className="demo-vid">
+          <ReactPlayer
+            className="player"
+            url={props.videoInfo.motoGo.url}
+            width="100%"
+            height="100%"
+          />
+        </div>
         <div className="video-description">
           <p>
             {props.videoInfo.motoGo.description}
@@ -63,13 +67,14 @@ const Projects = props => {
       <div className="demo-wrapper">
         {/* Jeopardy*/}
         <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.jeopardy.title}</h2>
-        <ReactPlayer
-          className="demo-vid"
-          url={props.videoInfo.jeopardy.url}
-        // width="100%"
-        // height="100%"
-
-        />
+        <div className="demo-vid">
+          <ReactPlayer
+            className="player"
+            url={props.videoInfo.jeopardy.url}
+            width="100%"
+            height="100%"
+          />
+        </div>
         <div className="video-description">
           <p>
             {props.videoInfo.jeopardy.description}
@@ -86,12 +91,15 @@ const Projects = props => {
       <div className="demo-wrapper">
         {/* IceBreaker */}
         <h2 style={{ textDecoration: "underline" }}>{props.videoInfo.iceBreaker.title}</h2>
-        <ReactPlayer
-          className="demo-vid"
-          url={props.videoInfo.iceBreaker.url}
-        // width="100%"
-        // height="100%"
-        />
+        <div className="demo-vid">
+          <ReactPlayer
+            className="player"
+            url={props.videoInfo.iceBreaker.url}
+            width="100%"
+            height="100%"
+          />
+
+        </div>
         <div className="video-description">
           <p>
             {props.videoInfo.iceBreaker.description}
