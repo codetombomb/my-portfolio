@@ -7,7 +7,8 @@ class SocialMedia extends Component {
         this.state = {
             color: "white",
             size: 35,
-            iconSize: 7
+            iconSize: 7,
+            borderColor: "black"
         }
     }
 
@@ -17,13 +18,13 @@ class SocialMedia extends Component {
         return (
             <div>
                 {/* Github */}
-                <SocialMediaIconsReact className="icon" icon="github" url="https://github.com/codetombomb" backgroundColor={"black"} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
+                <SocialMediaIconsReact className="icon" icon="github" url="https://github.com/codetombomb" backgroundColor={"black"} borderColor={this.state.borderColor} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
                 {/* Linkedin */}
-                <SocialMediaIconsReact className="icon" icon="linkedin" url="https://www.linkedin.com/in/tomtobar/" backgroundColor={"black"} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
+                <SocialMediaIconsReact className="icon" icon="linkedin" url="https://www.linkedin.com/in/tomtobar/" backgroundColor={"black"} borderColor={this.state.borderColor} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
                 {/* Twitter */}
-                <SocialMediaIconsReact className="icon" icon="twitter" url="https://twitter.com/tom_tobar" backgroundColor={"black"} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
+                <SocialMediaIconsReact className="icon" icon="twitter" url="https://twitter.com/tom_tobar" backgroundColor={"black"} borderColor={this.state.borderColor} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
                 {/* Instagram */}
-                <SocialMediaIconsReact className="icon" icon="instagram" url="https://www.instagram.com/tombomb_85/" backgroundColor={"black"} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
+                <SocialMediaIconsReact className="icon" icon="instagram" url="https://www.instagram.com/tombomb_85/" backgroundColor={"black"} borderColor={this.state.borderColor} iconColor={this.state.color} size={this.state.size} iconSize={this.state.iconSize} />
             </div>
         )
     }
