@@ -6,8 +6,8 @@ class SocialMedia extends Component {
         super()
         this.state = {
             color: "white",
-            size: 35,
-            iconSize: 7,
+            size: 30,
+            iconSize: 5,
             borderColor: "black"
         }
     }
