@@ -2,6 +2,7 @@ import React from "react";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton"
 import './Navbar.css';
 import SocialMedia from "../Social/SocialMedia";
+import Resume from '../../ttobar.pdf';
 
 const Navbar = props => (
   <header className="navbar">
@@ -17,7 +18,7 @@ const Navbar = props => (
         <ul>
           <li><a href="/">about</a></li>
           <li><a href="/projects">projects</a></li>
-          <li><a href="/resume">resume</a></li>
+          <li><a href={Resume} target="_blank" rel="noopener noreferrer">resume</a></li>
         </ul>
       </div>
     </nav>
