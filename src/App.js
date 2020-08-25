@@ -24,7 +24,7 @@ class App extends Component {
       home: {
         title: "Full Stack Web Developer",
         subtitle: "My Projects",
-        text: "Hi! My name is Tom and I am a web developer. After almost 10 years in the fun and energetic Motorcycle Industry, I decided to take a hobby to the next level and attend Flatiron School's Sofware Engineering Immersive program where I was met with a heaps of new challenges. I completed the program and created projects that I am very proud of. Flatiron instilled in me a love for programming and problem solving that I would like to share with everyone! I am a father, husband, and lover of family time video games."
+        text: "Hi! My name is Tom and I am a web developer. After almost 10 years in the fun and energetic Motorcycle Industry, I decided to take a hobby to the next level and attend Flatiron School's Software Engineering Immersive program where I was met with heaps of new challenges. I completed the program and created projects that I am very proud of. Flatiron instilled in me a love for programming and problem solving that I would like to share with everyone! I am a father, husband, and lover of family time video games."
       },
       contact: {
         title: "Tom Tobar",
