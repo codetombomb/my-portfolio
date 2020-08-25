@@ -7,7 +7,7 @@ class SocialMedia extends Component {
         this.state = {
             color: "white",
             size: 35,
-            iconSize: 6
+            iconSize: 7
         }
     }
 
