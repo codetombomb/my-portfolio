@@ -53,8 +53,6 @@ const Projects = props => {
             <li><p>{props.videoInfo.motoGo.facts.one}</p></li>
             <li><p>{props.videoInfo.motoGo.facts.two}</p></li>
             <li><p>{props.videoInfo.motoGo.facts.three}</p></li>
-            <li><p>{props.videoInfo.motoGo.facts.four}</p></li>
-
           </ul>
         </div>
 

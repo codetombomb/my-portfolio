@@ -7,7 +7,6 @@ import Navbar from './Components/Nav/Navbar'
 import SideDrawer from './Components/SideDrawer/SideDrawer'
 import Backdrop from './Components/Backdrop/Backdrop'
 import Projects from "./Components/Projects/Projects";
-import Resume from "./Components/Resume/Resume";
 
 
 class App extends Component {
@@ -34,32 +33,31 @@ class App extends Component {
         covidChaos: {
           url: "youtube.com/watch?v=gVurgKxb6l8&t",
           title: "Covid Chaos",
-          description: "Built using Javascript and Ruby on Rails, a dodging style game in which the player can accumulate points by collecting toilet paper rolls and hand sanitizer. The player must avoid Covid-19 viruses falling from above as well as other infected people falling from above.",
+          description: "Single Page Application dodging style game that uses the arrow keys to avoid enemies while earning points.",
           facts: {
-            one: "Frontend gameplay written in JavaScript with a Ruby on Rails API-Only backend to persist user’s credentials and score data.",
-            two: "Implimented Object Oriented JavaScript and full CRUD functionality.",
-            three: "Used the HTML canvas and requestAnimationFrame to allow for seamless animation during gameplay and a game loop that makes multiple inspections at each frame to allow the game to continue or end.",
+            one: "Learned collision detection in JavaScript and sprite manipulation within the game loop.",
+            two: "Managed time in order to deliver this project in the allotted time frame.",
+            three: "Applied an Object Oriented Approach when rendering multiples of the same sprites on the canvas.",
           }
         },
         motoGo: {
           url: "youtube.com/watch?v=vbAduAp5svg",
           title: "MotoGo",
-          description: "A Motorcycle rental application built using React JS and Ruby on Rails that allows users to list their personal motorcycles for lease for a period of time and make money.",
+          description: "Motorcycle rental app that allows users to rent out their personal bikes.",
           facts: {
-            one: "Combined React JS Framework and  React Router to quickly create this application with clean and abstracted architecture.",
-            two: "Developed a Rails API backend with endpoints for users, posts, bikes, and join table creations for renter to post",
-            three: "Uses the Google Maps API to allow users to see on a map, the proximity of available posted units. The users IP address is captured and sent to the Rails backend when a user signs up and converted to latitude and longitude coordinates.",
-            four: "Utilized rails serializers to customize JSON output."
+            one: "Used React JS to create a user friendly front end that interacts with the Rails API.",
+            two: "Utilized Rails’ built in sessions to authenticate users on the back end.",
+            three: "Obtains users IP address to geolocate and render exact position on Google Map API.",
           }
         },
         jeopardy: {
           url: "https://www.youtube.com/watch?v=YuLM-0J_7k8",
           title: "Jeopardy Lite",
-          description: "A game made for the Command Line that gives users a single player version of Jeopardy that will prepare them for their appearance on the Jeopardy show.",
+          description: "Command line interface application game that aims at preparing a user for an appearance on the Jeopardy show",
           facts: {
-            one: "CLI built using Ruby on Rails for the backend and SQlite3 database to store User and Jeopardy Question data.",
-            two: "Uses the Eventmachine Gem timer module to create a time limit on the Jeopardy and Double Jeopardy round.",
-            three: "Employed a beautiful interactive and easy to use user interface with the addition of the TTY - Prompt Gem."
+            one: "Was able to deliver stretch goals for a more complete project with teamwork.",
+            two: "Sourced a Public API to acquire and populate SQLite database with Jeopardy answers and questions.",
+            three: "Created a friendly user experience on the command line using gems, terminal art, and audio."
           }
         },
         iceBreaker: {
@@ -137,13 +135,6 @@ class App extends Component {
               path={"/contact"}
               render={(props) => (
                 <Contact {...props} title={this.state.contact.title} />
-              )}
-            />
-            <Route
-              exact
-              path={"/resume"}
-              render={(props) => (
-                <Resume {...props} title={this.state.contact.title} />
               )}
             />
           </Switch>
