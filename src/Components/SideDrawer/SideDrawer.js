@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideDrawer.css'
+import Resume from '../../ttobar.pdf';
 
 const SideDrawer = props => {
 
@@ -13,9 +14,9 @@ const SideDrawer = props => {
             <ul>
                 <li><a href="/">about</a></li>
                 <li><a href="/projects">projects</a></li>
-                <li><a href="/resume">resume</a></li>
+                <li><a href={Resume} target="_blank" rel="noopener noreferrer">resume</a></li>
             </ul>
-        </nav>
+        </nav >
     )
 };
 
