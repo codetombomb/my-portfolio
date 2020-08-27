@@ -15,7 +15,7 @@ const SideDrawer = props => {
                 <li><a href="/">about</a></li>
                 <li><a href="/projects">projects</a></li>
                 <li><a href={Resume} target="_blank" rel="noopener noreferrer">resume</a></li>
-            </ul>
+                <li><a href="mailto:devtomtobar@gmail.com" target="_blank" rel="noopener noreferrer">email me</a></li></ul>
         </nav >
     )
 };
